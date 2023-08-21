@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .Big,
+      .Bold,
+      #red {
+        font-size: 20pt;
+        font-weight: bold;
+        color: red;
+      }
+
+      a[title] {
+        background-color: goldenrod;
+      }
+
+      div[title~="Grey"] {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Big">This is div with class Big</div>
+    <div class="Bold" title="Bold And Grey Div">
+      This is div with class Bold
+    </div>
+    <div id="red">This is div with id red</div>
+    <a title="GoogleLink" href="http://www.google.com">For Google Click Here</a>
+    <a href="http://www.youtube.com">For Youtube Click Here</a>
+  </body>
+</html>

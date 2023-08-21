@@ -1,0 +1,32 @@
+* {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.class1 {
+  background-color: burlywood;
+}
+
+#id1 {
+  font-size: 20pt;
+}
+
+div {
+  color: indigo;
+  background-color: lightblue;
+  border: 1px solid black;
+}
+
+p {
+  color: hotpink;
+
+  background-color: rebeccapurple;
+}
+
+input {
+  border: 2px dotted royalblue;
+}
+
+input:invalid {
+  outline: 2px solid red;
+}

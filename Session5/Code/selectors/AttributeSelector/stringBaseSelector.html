@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div[class="class1"] {
+        background-color: red;
+      }
+      div[class$="n"] {
+        background-color: lightpink;
+      }
+      div[class^="n"] {
+        background-color: lightsalmon;
+      }
+      div[class*="i"] {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="class1">Div</div>
+    <div class="rishaan">Div n at end</div>
+    <div class="admin">Div n at end</div>
+    <div class="nishant">Div n at start</div>
+    <div class="faxirew">Div i in between</div>
+  </body>
+</html>

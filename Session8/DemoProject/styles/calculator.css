@@ -1,0 +1,134 @@
+body {
+  min-height: 100vh;
+  width: 100%;
+}
+
+@font-face {
+  font-family: "Digital-7";
+  src: url(digital7.ttf);
+}
+.outer-layout {
+  display: block;
+  margin-top: 10vh;
+  margin-left: 35%;
+  min-height: 80vh;
+  width: 40%;
+  padding: 10px;
+
+  border-radius: 20px;
+  background-color: #555555;
+}
+
+.display-layout {
+  height: 18vh;
+  margin-bottom: 2vh;
+  position: relative;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: rgb(218, 217, 217);
+  overflow: hidden;
+}
+
+.title-heading {
+  position: absolute;
+  height: 5vh;
+  top: 1vh;
+  right: 1vw;
+  text-align: right;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.display-inner-layout {
+  position: absolute;
+  height: 12vh;
+  width: 85%;
+
+  margin-top: 5vh;
+  margin-left: 2.5%;
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #868484;
+  box-shadow: inset 0px 0px 5px black;
+}
+
+.display-inner-layout > span {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Digital-7";
+}
+.buttons-layout {
+  height: 60vh;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+  display: flex;
+  flex-direction: row;
+  background-color: lightsalmon;
+}
+
+.buttons-left-layout {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+}
+
+.white {
+  background-color: rgb(241, 236, 236);
+  color: black;
+}
+.black {
+  background-color: rgb(55, 54, 54);
+  color: white;
+}
+.button {
+  margin: 5px;
+  width: 100px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-left-left-buttons-lout {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  background-color: rgb(32, 32, 32);
+}
+
+.buttonR {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  width: 80px;
+  height: 100px;
+  font-size: 20px;
+  font-weight: bold;
+
+  box-shadow: 1px 1px 3px black;
+}
+
+.buttonR > span {
+}
+.btn-left-right-buttons-lout {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  background-color: rgb(32, 32, 32);
+}
+.buttons-right-layout {
+  width: 40%;
+
+  background-color: rgb(32, 32, 32);
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p {
+        color: tan;
+      }
+      /* p::before {
+        content: url("https://media4.giphy.com/media/gd09Y2Ptu7gsiPVUrv/giphy.gif");
+      } */
+
+      p::after {
+        content: "This is ending of paragraph";
+        font-weight: bold;
+        color: red;
+      }
+
+      p::first-letter {
+        color: brown;
+        font-size: 40px;
+      }
+
+      p::first-line {
+        font-size: 20px;
+        color: cadetblue;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      This is good paragraph This is good paragraph This is good paragraph This
+      is good paragraph This is good paragraph This is good paragraph This is
+      good paragraph This is good paragraph This is good paragraph This is good
+      paragraph This is good paragraph This is good paragraph
+    </p>
+  </body>
+</html>

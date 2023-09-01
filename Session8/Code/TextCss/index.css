@@ -1,0 +1,35 @@
+p {
+  font-size: 20pt;
+  color: lightcoral;
+  text-align: justify;
+}
+
+p::first-line {
+  font-style: italic;
+  font-weight: bold;
+
+  /* text-decoration-line: overline;
+  text-decoration-style: dotted;
+  text-decoration-color: lightseagreen;
+  text-decoration-thickness: 1em; */
+
+  text-decoration: black solid line-through 0.2em;
+}
+
+div {
+  width: 25%;
+  min-height: 50vh;
+  background-color: lightsalmon;
+
+  padding-top: 400px;
+  padding-left: 200px;
+  margin-left: 30px;
+}
+
+#inner {
+  background-color: lightpink;
+  font-size: 40px;
+
+  text-shadow: 2px 2px 1px grey;
+  text-transform: uppercase;
+}

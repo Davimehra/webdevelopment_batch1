@@ -129,6 +129,22 @@ body {
 }
 .buttons-right-layout {
   width: 40%;
+  display: flex;
+  flex-wrap: wrap;
 
   background-color: rgb(32, 32, 32);
+}
+.buttons-right-layout > div {
+  width: 70px;
+  height: 80px;
+  margin: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  box-shadow: 1px 1px 3px grey;
+  border-radius: 20px;
+  font-size: 9pt;
+  font-weight: bolder;
+  background-color: white;
 }

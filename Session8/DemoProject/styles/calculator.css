@@ -68,14 +68,13 @@ body {
 
   display: flex;
   flex-direction: row;
-  background-color: lightsalmon;
 }
 
 .buttons-left-layout {
   width: 60%;
   display: flex;
   flex-direction: row;
-  background-color: red;
+  overflow: hidden;
 }
 
 .white {
@@ -90,6 +89,7 @@ body {
   margin: 5px;
   width: 100px;
   height: 70px;
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,14 +97,16 @@ body {
 
 .btn-left-left-buttons-lout {
   width: 30%;
+  height: min-content;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-
+  overflow: hidden;
   background-color: rgb(32, 32, 32);
 }
 
 .buttonR {
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,26 +119,27 @@ body {
   box-shadow: 1px 1px 3px black;
 }
 
-.buttonR > span {
-}
 .btn-left-right-buttons-lout {
   width: 70%;
+  height: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
+  overflow: hidden;
   background-color: rgb(32, 32, 32);
 }
 .buttons-right-layout {
   width: 40%;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
-
+  overflow: hidden;
   background-color: rgb(32, 32, 32);
 }
 .buttons-right-layout > div {
-  width: 70px;
-  height: 80px;
+  cursor: pointer;
+  min-width: 30%;
+  height: 20%;
   margin: 4px;
   display: flex;
   justify-content: center;

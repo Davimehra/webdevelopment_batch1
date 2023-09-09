@@ -1,0 +1,29 @@
+.container {
+  width: 800px;
+  height: 90px;
+  border: 1px solid grey;
+  box-shadow: 0px 0px 4px grey;
+  border-radius: 3px;
+  background-color: whitesmoke;
+}
+
+.box {
+  width: 0px;
+  height: 90px;
+  box-shadow: inset 0px 0px 4px grey;
+  background-color: lightsalmon;
+}
+
+.box.one {
+  animation: leftToRight 5s linear 0s 1;
+}
+
+@keyframes leftToRight {
+  0% {
+  }
+
+  100% {
+    width: 800px;
+    background-color: black;
+  }
+}

@@ -1,0 +1,58 @@
+body {
+  height: 200vh;
+}
+
+.static {
+  margin-top: 20px;
+  position: static;
+  width: 100px;
+  height: 100px;
+  background-color: violet;
+  border: 1px solid grey;
+}
+
+.relative {
+  position: relative;
+
+  left: 20px;
+
+  width: 500px;
+  height: 500px;
+  background-color: lightgreen;
+  border: 1px solid grey;
+}
+.Box2 {
+  position: absolute;
+  bottom: 0px;
+  /* top: 120px; */
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.Box1 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100px;
+  height: 100px;
+  background-color: yellowgreen;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 0px;
+  right: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: lightsalmon;
+}
+
+.Sticky {
+  position: sticky;
+  top: 300px;
+
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+}

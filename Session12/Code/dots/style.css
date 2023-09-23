@@ -1,0 +1,48 @@
+.dotContainer {
+  height: 100px;
+  width: 100px;
+  background-color: royalblue;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 20%;
+  gap: 10px;
+}
+
+.dot {
+  height: 20px;
+  width: 10px;
+  background-color: white;
+
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+
+  box-shadow: 0px 0px 2px grey;
+  animation: heightvary 1s linear 0s infinite forwards;
+}
+.item1 {
+  animation: heightvaryshort 1s linear 0s infinite forwards;
+}
+
+@keyframes heightvary {
+  0% {
+  }
+  50% {
+    height: 70px;
+  }
+  100% {
+  }
+}
+@keyframes heightvaryshort {
+  0% {
+  }
+  50% {
+    height: 40px;
+  }
+  100% {
+  }
+}

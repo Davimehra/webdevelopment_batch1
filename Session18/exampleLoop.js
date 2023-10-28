@@ -51,3 +51,17 @@ let s3_PunjabiMarks = 60;
 
 //     }
 // }
+
+let x = 100;
+let y = 20;
+let z = 32;
+
+if (x > y && x > z) {
+  console.log(x, " is Greater");
+} else {
+  if (y > z) {
+    console.log(y, "is Greater");
+  } else {
+    console.log(z, "is Greater");
+  }
+}

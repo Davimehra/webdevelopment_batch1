@@ -9,20 +9,30 @@
   </head>
   <body>
     <div>
-        <input  id="item-input" type="text" placeholder="Enter Item"> </input>
-        <button onclick="onClickHandler()" type="button">Add Item</button>
+        <input onkeydown="onKeyDown(event)" id="item-input" type="text" placeholder="Enter Item"> </input>
+        <button  onclick="onClickHandler()" type="button">Add Item</button>
     </div>
     <div>
       <h1>Bucket</h1>
      
       <!-- ParentElement  -->
-      <ul id="bucketList"> 
+      <ol id="bucketList"> 
         <!-- child1 -->
-        <li>Speakers</li>
+        <li >
+          <div class="liClass">
+            <span>Speaker</span>
+            <span id="trash" onclick="onClickDelete(event)">🗑️</span>  
+          </div>
+          </li>
         <!-- child2 -->
-        <li>Monitors</li>
+        <li >
+          <div class="liClass">
+            <span>Monitor</span>
+            <span id="trash" onclick="onClickDelete(event)">🗑️</span>  
+          </div>
+        </li>
     
-      </ul>
+      </l>
     </div>
   </body>
 </html>

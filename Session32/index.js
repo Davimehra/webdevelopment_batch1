@@ -15,7 +15,7 @@ async function getTodo (){
 //   console.log(Object.values(response.data))
 
 fs.writeFileSync('./data.json',JSON.stringify(response.data))
-  console.log("Saved to filed")
+  console.log("Saved to file")
   
 }
 

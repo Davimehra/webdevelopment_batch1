@@ -1,0 +1,48 @@
+Example 1
+
+https://www.google.com/search?d=movie&geners=action&time=12334
+
+Example 2
+https://www.google.com/api/v1/
+param = null
+
+https://www.google.com/api/user/rishaan
+parameter = rishaan
+
+
+www = hostname
+google.com = domain
+https = protocol (ssl or tls)
+
+/ indicate we will be redirecto to file (route)
+? query 
+s queryName
+= value
+
+
+My Name is Davinder Kumar\ Your name is Rishaan\ My school name is opbms
+
+delimeter = 
+My Name is Davinder Kumar, Your name is Rishaan, My school name is opbms
+delimeter = ,
+
+String.slice('/')
+Array = ["My Name is Davinder Kumar","Your name is Rishaan","My school name is opbms"]
+
+
+Example
+
+url = https://en.wikipedia.org/wiki/Working
+
+Coding
+
+const tempLocationPath = window.location.pathname                 -- /wiki/working
+
+const pathSliceArray = tempLocatioPath.split('/')                      -- delimeter
+                        
+// Array(3) [ "", "wiki", "Working" ]
+
+console.log(pathSliceArray[pathSliceArray.length-1])               -- working
+
+ EOT
+

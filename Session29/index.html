@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BucketList</title>
+    <script async defer src="./index.js"></script>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div>
+        <input onkeydown="onKeyDown(event)" id="item-input" type="text" placeholder="Enter Item"> </input>
+        <button  onclick="onClickHandler()" type="button">Add Item</button>
+    </div>
+    <div>
+      <h1>Bucket</h1>
+     
+      <!-- ParentElement  -->
+      <ol id="bucketList"> 
+        <!-- child1 -->
+        <li >
+          <div class="liClass">
+            <span>Speaker</span>
+            <span id="trash" onclick="onClickDelete(event)">🗑️</span>  
+          </div>
+          </li>
+        <!-- child2 -->
+        <li >
+          <div class="liClass">
+            <span>Monitor</span>
+            <span id="trash" onclick="onClickDelete(event)">🗑️</span>  
+          </div>
+        </li>
+    
+      </l>
+    </div>
+  </body>
+</html>
+

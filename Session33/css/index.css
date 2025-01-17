@@ -1,0 +1,21 @@
+#container {
+    min-width: 200px;
+    min-height: 600px;
+    padding: 20px;
+    background-color: lightgreen;
+    box-shadow: inset 0px 0px 100px #69F0AE;
+}
+
+#fetchUserButton {
+    width: 200px;
+    height: 50px;
+    background-color: grey;
+    color: black;
+
+    margin-bottom: 20px;
+}
+
+.useritem {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}

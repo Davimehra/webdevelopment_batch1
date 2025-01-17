@@ -1,0 +1,18 @@
+.contianer {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background-image: url("../media/tree.png");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.contianer::after {
+  content: "working";
+  font-size: 5px;
+  position: absolute;
+  bottom: 0%;
+  left: 20%;
+  background-color: brown;
+}

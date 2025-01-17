@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  align-content: space-evenly;
+
+  gap: 1px;
+
+  height: 400px;
+  width: 400px;
+
+  background-color: lightsalmon;
+}
+
+.item {
+  height: 70px;
+  width: 70px;
+
+  background-color: lightgreen;
+  box-shadow: inset 0px 0px 4px white;
+}

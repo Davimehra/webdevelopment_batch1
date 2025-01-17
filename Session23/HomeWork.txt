@@ -1,0 +1,14 @@
+Let there must be 2 arrays
+1. Names Of Student Array
+2. Total Marks of one Subject of all Student Array
+Create a function 
+which on Call 
+decide what to print
+You
+8:16 PM
+if Parameter passed is 1 then print all the Names of Student
+if Parameter passed is 2 then pring all the total marks of one subject but of all student
+You
+8:17 PM
+Greeting Function
+Higher Function

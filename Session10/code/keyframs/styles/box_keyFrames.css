@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  width: 800px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: lightgreen;
+}
+
+.box {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 12px;
+  background-color: lightsalmon;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 10px black, 0px 0px 6px grey;
+}
+
+.box.one {
+  animation: leftToRight 5s linear 0s infinite;
+}
+.box.two {
+  animation: leftToRight 5s ease 0s infinite;
+}
+.box.three {
+  animation: leftToRight 5s ease-in-out 0s infinite;
+}
+.box.four {
+  animation: leftToRight 5s ease-in 0s infinite;
+}
+.box.five {
+  animation: leftToRight 5s ease-out 0s infinite;
+}
+
+@keyframes leftToRight {
+  0% {
+  }
+
+  50% {
+    background-color: blue;
+    transform: translateX(710px);
+  }
+
+  100% {
+    background-color: green;
+  }
+}

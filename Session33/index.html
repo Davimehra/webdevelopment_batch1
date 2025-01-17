@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script defer async src="./jsfiles/script.js"></script>
+    <script defer async src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.5/axios.min.js"></script>
+</head>
+
+<body style="background-color: black;">
+    <button id="fetchUserButton" onclick="getUsers()">Get Users</button>
+    <button id="deleteUserButton" onclick="deleteUser()">Delete First User</button>
+    <div id="container">
+        <ol id="userList"></ol>
+    </div>
+
+</body>
+
+</html>

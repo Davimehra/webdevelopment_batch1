@@ -1,0 +1,41 @@
+div {
+  width: 80px;
+  height: 80px;
+  margin: 50px;
+}
+
+.Div0 {
+  background-color: lightgray;
+  transform: scale(1, 2);
+}
+
+.Div1 {
+  background-color: lightpink;
+  transform: translateX(100px) translateY(60px) translateZ(-100px);
+}
+
+.Div2 {
+  background-color: red;
+  transform: rotateX(60deg);
+  background-color: limegreen;
+}
+
+.Div3 {
+  background-color: violet;
+  transform: rotateY(40deg);
+  border: 1px solid black;
+}
+
+.Div4 {
+  transform: rotateZ(10deg);
+  background-color: orangered;
+}
+
+.Div5 {
+  transform: skewX(30deg);
+  background-color: tan;
+}
+.Div6 {
+  transform: skewY(30deg);
+  background-color: lightseagreen;
+}
